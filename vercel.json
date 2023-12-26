@@ -5,8 +5,9 @@
         "dest": "/$1.html"
       },
       {
-        "src": "/(.*)",
-        "dest": "/$1.pdf"
+        "src": "/(.+\\.pdf)",
+        "dest": "$1",
+        "status": 301
       },
       {
         "src": "/github",
