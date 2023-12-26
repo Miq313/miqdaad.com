@@ -5,6 +5,10 @@
         "dest": "/$1.html"
       },
       {
+        "src": "/(.*)",
+        "dest": "/$1.pdf"
+      },
+      {
         "src": "/github",
         "dest": "https://www.github.com/Miq313/"
       },
