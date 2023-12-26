@@ -1,9 +1,24 @@
 {
-    "routes": 
-    [
+    "routes": [
       {
         "src": "/(.*)",
-        "dest": "/$1.html"
+        "dest": "/$1.html",
+        "comment": "Match any request that starts with / and route to /index.html"
+      },
+      {
+        "src": "/github",
+        "status": 301,
+        "headers": {
+          "Location": "https://github.com/Miq313"
+        }
+      },
+      {
+        "src": "/linkedin",
+        "status": 301,
+        "headers": {
+          "Location": "https://www.linkedin.com/in/miq-k/"
+        }
       }
     ]
-}
+  }
+  
