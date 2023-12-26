@@ -5,14 +5,14 @@
         "dest": "/$1.html"
       },
       {
-        "source": "/github",
-        "destination": "https://www.github.com/Miq313/", 
+        "src": "/github",
+        "dest": "https://www.github.com/Miq313/", 
         "permanent": true
       },
       { 
-      "source": "/linkedin",
-      "destination": "https://www.linkedin.com/in/miq-k/", 
-      "permanent": true
+        "src": "/linkedin",
+        "dest": "https://www.linkedin.com/in/miq-k/", 
+        "permanent": true
       }
     ]
   }
