@@ -2,8 +2,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "/$1.html",
-        "comment": "Match any request that starts with / and route to /index.html"
+        "dest": "/$1.html"
       },
       {
         "src": "/github",
