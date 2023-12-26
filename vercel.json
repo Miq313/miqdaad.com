@@ -5,18 +5,14 @@
         "dest": "/$1.html"
       },
       {
-        "src": "/github",
-        "status": 301,
-        "headers": {
-          "Location": "https://github.com/Miq313"
-        }
+        "source": "/github",
+        "destination": "https://www.github.com/Miq313/", 
+        "permanent": true
       },
-      {
-        "src": "/linkedin",
-        "status": 301,
-        "headers": {
-          "Location": "https://www.linkedin.com/in/miq-k/"
-        }
+      { 
+      "source": "/linkedin",
+      "destination": "https://www.linkedin.com/in/miq-k/", 
+      "permanent": true
       }
     ]
   }
