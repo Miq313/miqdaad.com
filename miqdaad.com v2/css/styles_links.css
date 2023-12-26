@@ -1,0 +1,118 @@
+body {
+    background-image: none;
+    background-color: black;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+
+.container {
+    display: inline-block;
+    margin-top: 65px;
+    width: 80%;
+}
+
+.profile-picture {
+    border-radius: 50%;
+}
+@media (max-width: 768px) {
+    .profile-picture {
+        width: 100px;
+        height: 100px;
+    }
+}
+@media (min-width: 769px) {
+    .profile-picture {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.name {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.email-container {
+    margin-block-start: 0;
+}
+
+.email {
+    color: gray;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.links {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.link-box {
+    position: relative;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    padding: 35px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+@media (max-width: 768px) { /* mobile */
+    .link-box {
+        width: 100%;
+    }
+}
+@media (min-width: 769px) { /* desktop */
+    .link-box {
+        width: 60%;
+        transition: width .2s ease-in;
+    }
+}
+.link-box::before {
+    content: "";
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+}
+.link-box.resume-icon::before {
+    background-image: url('../assets/icons/resume_trace.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: invert(100%);
+    transform: scale(2) translateY(-25%);
+}
+.link-box.github-icon::before {
+    background-image: url('../assets/icons/github_trace.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: invert(100%);
+    transform: scale(2) translateY(-25%);
+}
+.link-box.linkedin-icon::before {
+    background-image: url('../assets/icons/linkedin_trace.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: invert(100%);
+    transform: scale(2) translateY(-25%);
+}
+@media (max-width: 768px) { /* mobile */
+    .link-box:hover {
+        width: 105%;
+    }
+}
+@media (min-width: 769px) { /* desktop */
+    .link-box:hover {
+        width: 65%;
+    }
+}
