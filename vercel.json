@@ -7,12 +7,12 @@
       {
         "src": "/github",
         "dest": "https://www.github.com/Miq313/", 
-        "permanent": true
+        "status": 301
       },
       { 
         "src": "/linkedin",
-        "dest": "https://www.linkedin.com/in/miq-k/", 
-        "permanent": true
+        "dest": "https://www.linkedin.com/in/miq-k/",
+        "status": 301
       }
     ]
   }
