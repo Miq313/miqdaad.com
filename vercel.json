@@ -6,13 +6,11 @@
       },
       {
         "src": "/github",
-        "dest": "https://www.github.com/Miq313/", 
-        "status": 301
+        "dest": "https://www.github.com/Miq313/"
       },
       { 
         "src": "/linkedin",
-        "dest": "https://www.linkedin.com/in/miq-k/",
-        "status": 301
+        "dest": "https://www.linkedin.com/in/miq-k/"
       }
     ]
   }
